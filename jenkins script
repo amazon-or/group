@@ -16,7 +16,7 @@ node ('nodes')
     
   stage('CheckOutCode') 
   {
-    git branch: 'development', credentialsId: '4cb6f179-418b-4bf1-b7fa-facdff7a39d5', url: 'https://github.com/MithunTechnologiesDevOps/maven-web-application.git'
+    git branch: 'master', credentialsId: '4cb6f179-418b-4bf1-b7fa-facdff7a39d5', url: 'https://github.com/MithunTechnologiesDevOps/maven-web-application.git'
   }
    
   
